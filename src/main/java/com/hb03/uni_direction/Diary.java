@@ -39,7 +39,7 @@ public class Diary {
     public Student03 getStudent() {
         return student;
     }
-
+// bu yorum saturi
     public void setStudent(Student03 student) {
         this.student = student;
     }
