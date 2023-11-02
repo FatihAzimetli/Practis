@@ -17,8 +17,7 @@ public class Diary {
     @JoinColumn(name = "std_id")
     private Student03 student; //student_id
 
-        // GETTER -SETTER
-
+    // GETTER -SETTER
 
     public int getId() {
         return id;
@@ -39,7 +38,7 @@ public class Diary {
     public Student03 getStudent() {
         return student;
     }
-// bu yorum saturi
+
     public void setStudent(Student03 student) {
         this.student = student;
     }

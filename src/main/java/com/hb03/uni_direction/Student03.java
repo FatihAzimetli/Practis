@@ -15,8 +15,7 @@ public class Student03 {
 
     private int grade;
 
-        // GETTER-SETTER
-
+    // GETTER-SETTER
 
     public int getId() {
         return id;
@@ -42,7 +41,7 @@ public class Student03 {
         this.grade = grade;
     }
 
-        // toString()
+    // toString()
 
     @Override
     public String toString() {

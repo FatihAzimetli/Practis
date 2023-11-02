@@ -14,7 +14,43 @@ public class Book08 {
 
     private String name;
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "bookList")
     private List<Student08> students= new ArrayList<>();
 
+    // !!! GETTER -SETTER
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<Student08> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<Student08> students) {
+        this.students = students;
+    }
+
+    // !!! toString()
+
+    @Override
+    public String toString() {
+        return "Book08{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

@@ -1,8 +1,6 @@
 package com.hb03.uni_direction;
 
 import com.hb02.embeddable.Student02;
-
-import com.hb02.embeddable.Student02;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
